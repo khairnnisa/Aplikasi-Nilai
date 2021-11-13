@@ -21,7 +21,7 @@ public class Nilai{
     }
 
     public Object getIndex(){
-        if (NA > 45 && NA < 45 ){
+        if (NA > 0 && NA < 45 ){
             index = 'E';
         } else if (NA >= 45 && NA < 56){
             index = 'D';
